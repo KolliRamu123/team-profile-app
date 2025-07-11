@@ -1,1 +1,26 @@
-<p>profile-three works!</p>
+<body> 
+    <div class="card">
+        <div class="card-title">
+            <h1>Profile Three</h1>
+        </div>
+        <div class="card-content">
+        <div class="profile-img">
+            <img [src]="p1img" alt="profile two image">
+        </div>
+        <div class="card-details">
+            <h2>{{name}}</h2>
+            <p>Department - {{department}}</p>
+            <p>Position - {{position}}</p>
+
+            <h3>set status</h3>
+            <input type="text" [(ngModel)]="status" placeholder="Update status" />
+             <h4>{{status}}</h4>
+
+             <h3>set Remarks</h3>
+            <input type="text" [(ngModel)]="remarks" placeholder="Update Remarks" />
+             <h4>{{status}}</h4>
+        </div>
+    </div>
+    </div>
+</body>
+
