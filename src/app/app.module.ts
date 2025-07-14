@@ -7,6 +7,8 @@ import { ProfileTwoComponent } from './profile-two/profile-two.component';
 import { ProfileThreeComponent } from './profile-three/profile-three.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FormsModule } from '@angular/forms';
     ProfileOneComponent,
     ProfileTwoComponent,
     ProfileThreeComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

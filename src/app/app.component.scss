@@ -1,0 +1,17 @@
+body{
+    background-color: blueviolet;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.card{
+    background-color: white;
+    position: relative;
+    left: 350px;
+    border-radius: 8px;
+    height: 450px;
+    width: 450px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    padding: 16px;
+    box-shadow: 2px 2px 8px rgba(234, 223, 5, 0.878);
+}
