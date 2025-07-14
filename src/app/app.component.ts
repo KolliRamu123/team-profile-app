@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {} from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +8,11 @@ import {} from '@angular/router';
 })
 export class AppComponent {
   title = 'team-profile-app';
+  constructor(private rot:Router){
 
+  }
+  isapp():boolean{
+    return this.rot.url=='/'
+  }
   
 }
