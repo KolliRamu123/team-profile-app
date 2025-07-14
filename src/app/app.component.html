@@ -1,3 +1,13 @@
 <app-navbar></app-navbar>
+<div *ngIf="isapp()" class="card">
+        <div class="card-title">
+            <h1>Team profiles</h1>
+        </div>
+        <div class="card-content">
+            <div><button routerLink="/profile-one">profile one</button></div>
+            <button routerLink="/profile-two">profile Two</button><br>
+            <button routerLink="/profile-three">profile Three</button><br>
+        </div>
+</div>
 <router-outlet></router-outlet>
  
